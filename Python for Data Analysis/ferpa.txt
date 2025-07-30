@@ -1,0 +1,42 @@
+Family Educational Rights and Privacy Act (FERPA)
+
+The Family Educational Rights and Privacy Act of 1974 (FERPA), commonly known as the Buckley Amendment, is a United States federal law that governs the access to and disclosure of student education records. It grants parents access to their child’s education records, allows amendments, and controls disclosures. It applies only to educational institutions that receive federal funding under programs administered by the U.S. Department of Education.
+
+Purpose[edit]
+
+FERPA serves two main purposes:
+1. Grants parents (or students 18 or older) the right to inspect and review education records.
+2. Protects personally identifiable educational information from disclosure to third parties without consent, subject to specific exceptions.
+
+Rights under FERPA
+- Parents or eligible students can inspect and review education records within 45 days of request.
+- They can request amendments if records are inaccurate, misleading, or violate privacy rights.
+- If the institution refuses, they may request a formal hearing and can insert a written statement into the record.
+
+Disclosure Rules & Exceptions
+- Schools generally must have written consent from parents or eligible students before releasing information from records.
+- Exceptions allow disclosure without consent to:
+  • School officials with legitimate educational interest
+  • Other schools the student intends to transfer to
+  • Auditors, accrediting agencies, financial aid providers
+  • Organizations conducting research for the school
+  • Law enforcement via judicial order or subpoena
+  • Health and safety emergencies
+  • Juvenile justice authorities
+
+Additionally, directory information (e.g., name, major, dates of attendance) may be released unless a student opts out; combining directory info with other data may then constitute a protected record.
+
+Applicability[edit]
+FERPA applies to all public and private K–12 and post‑secondary schools that receive federal funding. It applies to education records: records directly related to a student and maintained by the institution or an agent thereof. It does not include:
+- Teacher’s personal notes
+- Law enforcement or medical records not maintained by the education institution
+- Student records created by other students or student organizations
+
+Age and Student Status
+- At age 18 or upon enrollment in post‑secondary school, the rights under FERPA transfer from the parent to the student (“eligible student”).
+- Institutions may still share records with parents if the student is claimed as a dependent on their most recent U.S. federal income tax return.
+
+Judicial Interpretation & Enforcement
+- FERPA is enforced by the U.S. Department of Education and violations can result in the loss of federal funds—not monetary damages to individuals.
+- In *Gonzaga University v. Doe* (2002), the U.S. Supreme Court held that FERPA does not create enforceable personal rights under 42 U.S.C. § 1983, so students cannot sue schools for damages under the law.
+- In *Owasso Independent School District v. Falvo* (2002), the Supreme Court ruled that peer grading (students grading each other publicly) does not violate FERPA.

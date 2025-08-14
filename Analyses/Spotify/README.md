@@ -8,7 +8,7 @@ Target Dominant Genres:
 - Consider fusing Pop elements with Hip-Hop or Dance/Electronic to capture a wider audience. 
 - Aim for a danceability score > 0.7 — 64% of top 50 tracks meet this mark.
 
-However to make a concrete assessment we'd need more data. - Lacking Data. We could consider scraping the top 50 songs for each week of 2020 to build a more robust dataset.
+However, to make a concrete assessment, we would need more data. For example, we could scrape the top 50 songs for each week of 2020 to build a more robust dataset. We also need to account for recency bias songs that have been in the chart for longer are more likely to fall in the rankings. As a result, this analysis should be seen as a snapshot in time rather than a reflection of constant audience preference.
 
 ## Summary of Analysis
 After cleaning and consolidating genre categories (including niche genres):
@@ -29,10 +29,11 @@ Interesting Findings:
 
 Artist Representation:
 - Out of 40 unique artists, 7 artists have multiple tracks in the Top 50.
-- Variability Within Genres 
-  - Significant variance in loudness across tracks within the same genre. 
-  - Dance/Electronic music tends to be the loudest on average. 
-  - Pop and Hip-Hop tracks span a wide loudness range, from very quiet to very loud.
+
+Variability Within Genres 
+- Significant variance in loudness across tracks within the same genre. 
+- Dance/Electronic music tends to be the loudest on average. 
+- Pop and Hip-Hop tracks span a wide loudness range, from very quiet to very loud.
 
 
 
@@ -41,6 +42,7 @@ Overall, the dataset is in good shape with no missing values. However, there are
 
 - Lacking Data
   - To make more sophisticated correlations, bigger comparisons in distributions we need more than 50 songs. We could consider scraping the top 50 songs for each week of 2020 to build a more robust dataset.
+  - We also have to acknowledge recency biais. Songs which have been in  the chart longer are more likely to fall in rankings. Therefore this is more of a slice in time rather than a constant preference.
 
 - Distribution Issues 
   - Certain float-based fields display unusual distributions:

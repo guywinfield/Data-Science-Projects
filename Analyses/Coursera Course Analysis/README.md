@@ -101,8 +101,7 @@ Guy Winfield
 Discord: @guyw7698
 
 ## Version History
-0.1 Initial Release
-
-0.2 Update Notebook Commentary
-
-0.3 PEP 8 Standards - black
+- 0.1 Initial Release 
+- 0.2 Update Notebook Commentary 
+- 0.3 PEP 8 Standards - black 
+- 0.4 Chart Updates

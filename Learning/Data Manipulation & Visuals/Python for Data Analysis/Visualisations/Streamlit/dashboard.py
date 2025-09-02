@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import requests
 import tweepy
 import config
-import psycopg2, psycopg2.extras
+import psycopg2.extras
 import plotly.graph_objects as go
 
 auth = tweepy.OAuthHandler(config.TWITTER_CONSUMER_KEY, config.TWITTER_CONSUMER_SECRET)

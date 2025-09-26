@@ -46,7 +46,7 @@ Second chart:
 - The distributions are nearly identical between 2017 and 2019, indicating no meaningful progress over this period. The median value remains below 3, reflecting generally low levels of perceived support.
 
 
-![Physical vs Mental Health Importance](images/Physical vs Mental Health Importance.png)
+![Physical vs Mental Health Importance](images/Physical%20vs%20Mental%20Health%20Importance.png)
 
 
 ### 📌 Key Takeaways

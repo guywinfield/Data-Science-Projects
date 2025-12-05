@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Predictor</title>
+    <style>
+        body { font-family: Arial; margin: 30px; }
+        .container { max-width: 600px; margin: auto; }
+        .result { margin-top: 30px; padding: 20px; border: 1px solid #ccc; }
+        input { width: 100%; padding: 8px; margin-top: 8px; margin-bottom: 12px; }
+        button { padding: 10px 15px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🏡 Portugal House Price Predictor</h1>
+
+    <form action="/predict_form" method="post">
+
+        <label>District</label>
+        <input type="text" name="District" required />
+
+        <label>Type</label>
+        <input type="text" name="Type" required />
+
+        <label>Energy Certificate</label>
+        <input type="text" name="EnergyCertificate" />
+
+        <label>Total Area</label>
+        <input type="number" name="TotalArea" required />
+
+        <label>Living Area</label>
+        <input type="number" name="LivingArea" />
+
+        <label>Total Rooms</label>
+        <input type="number" name="TotalRooms" required />
+
+        <label>Number of Washrooms</label>
+        <input type="number" name="NumberOfWashrooms" required />
+
+        <label>Construction Year</label>
+        <input type="number" name="ConstructionYear" required />
+
+        <label>Floor Number</label>
+        <input type="number" name="FloorNum" required />
+
+        <label>Parking (0 or 1)</label>
+        <input type="number" name="Parking" />
+
+        <label>Elevator (0 or 1)</label>
+        <input type="number" name="Elevator" />
+
+        <label>Garage (0 or 1)</label>
+        <input type="number" name="Garage" />
+
+        <label>Conservation Status</label>
+        <input type="text" name="ConservationStatus" />
+
+        <label>Electric Cars Charging (0 or 1)</label>
+        <input type="number" name="ElectricCarsCharging" />
+
+        <button type="submit">Predict Price</button>
+    </form>
+
+
+    {% if prediction %}
+    <div class="result">
+        <h2>Predicted Price: {{ prediction }}</h2>
+
+        {% if shap_image %}
+        <h3>SHAP Explanation</h3>
+        <img src="data:image/png;base64,{{ shap_image }}" width="100%" />
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

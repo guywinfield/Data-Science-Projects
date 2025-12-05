@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+jinja2
+
+numpy
+pandas
+
+catboost
+shap
+joblib
+matplotlib
+python-multipart

@@ -37,3 +37,8 @@ def time_series_model_score(y_true, y_pred):
         f"Forecast Bias (+ Overpredict - Underpredit): {bias_pct} \n"
     )
 
+
+def precision_at_k(y_true: list[float], y_score: list[float], k: int) -> float:
+    idx = np.argsort(y_score)[::-1][:k]
+    relevant_at_k = np.sum(np.array(y_true)[idx] > 0)
+    return relevant_at_k / k
